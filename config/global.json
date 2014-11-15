@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "FaceHelp": {
+            "applicationId": "TCnaBepFsHgryrnoXjiVl4Oshm6vegDIxrU4sEfU", 
+            "masterKey": "RDYQZUhnV1e13v80msc5Wg3EFgke9FjWS0IimVBE"
+        }, 
+        "_default": {
+            "link": "FaceHelp"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.1"
+    }
+}

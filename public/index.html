@@ -1,0 +1,43 @@
+
+<html>
+  <head>
+    <title>My ParseApp site</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styleIndex.css">
+  </head>
+
+  <body>
+    <script>
+      window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1567057463528679',
+        xfbml      : true,
+        version    : 'v2.1'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1567057463528679&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+<!--     <div>
+      <h1>Congratulations! You're already hosting with Parse.</h1>
+      <p>To get started, edit this file at <em>public/index.html</em> and start adding static content.</p>
+      <p>If you want something a bit more dynamic, delete this file and check out <a href="https://parse.com/docs/hosting_guide#webapp">our hosting docs</a>.</p>
+    </div> -->
+
+    <div>
+      <h1> Welcome To FaceHelp</h1>
+        <p>Login using Facebook to find help from your friends!</p>
+    </div>
+
+    <div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="true">
+    </div>
+
+  </body>
+</html>
